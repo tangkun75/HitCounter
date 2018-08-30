@@ -1,7 +1,8 @@
 # HitCounter
 This is web application and the HitCounter.jsp page is for collecting and displaying the number of requests to 
 an HTML page in this web application. Currently there are two static html pages (myHtml/1.html and myHtml/2.html) 
-in this web application.
+in this web application. Here we use the Servlet Filter to intercept the all of http requests and do this statistics 
+function.
 
 ## Building and Integration Testing
 mvn clean verify
